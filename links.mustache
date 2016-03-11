@@ -1,0 +1,13 @@
+	<div class="sidebar">
+		<h2>Actions</h2>
+		<ul>
+			<li><a href="generate-links.php">Generate Links</a></li>
+			<li><a href="generate-entries.php">Generate Entries</a></li>
+		</ul>
+		<h2>Links</h2>
+		<ul>
+			{{#links}}
+			<li><a href="{{linkUrl}}" target="_bank">{{linkName}}</a></li>
+			{{/links}}
+		</ul>
+	</div>
